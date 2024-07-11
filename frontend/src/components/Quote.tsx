@@ -6,7 +6,7 @@ export const Quote = () => {
                 "One year can change your whole life, just trust the process."
             </div>
             <div className="max-w-md text-lg font-medium text-left mt-4">
-                Aditya Swami
+                - Aditya Swami
             </div>
             <div className="max-w-md text-sm font-light text-slate-600">
                 Medium Inc
