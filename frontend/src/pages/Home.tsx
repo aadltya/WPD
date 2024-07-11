@@ -4,7 +4,7 @@ export const Home = () => {
     return  <div className="">
     <div className="max-w-screen-xl">
         <header className="bg-white shadow-sm">
-            <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div className="container w-full px-4 py-4 flex justify-between items-center">
                 <h1 className="text-2xl text-black">Medium</h1>
                 <div className="flex space-x-4">
                     <Link to={'/signup'} >
