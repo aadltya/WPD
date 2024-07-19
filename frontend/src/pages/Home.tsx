@@ -30,7 +30,7 @@ export function Home() {
                 Welcome to WPL, the best platform to lie on the web.
                 We provide reliable, scalable, and customizable solutions for
                 your business. Whether you&apos;re sending order confirmations,
-                password reset emails, or promotional campaigns, MailJet has got you
+                password reset, or promotional campaigns, MailJet has got you
                 covered.
                 </p>
             </div>
