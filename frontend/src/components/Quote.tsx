@@ -9,7 +9,7 @@ export const Quote = () => {
                 - Aditya Swami
             </div>
             <div className="max-w-md text-sm font-light text-slate-600">
-                Medium Inc
+                watch people lie Inc
             </div>
         </div>
     </div>
