@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import { BackgroundBeams } from "../components/ui/background-beams";
+import { Cursor } from "../components/Cursor";
 
 export function Home() {
-  return <div>
+  return <div className="" >
     <div className="h-screen w-full bg-neutral-950 relative flex flex-col items-stretch antialiased" >
             <div className="flex justify-between px-10 py-4">
                 <div className="flex flex-col justify-center">
@@ -27,15 +28,16 @@ export function Home() {
                 </h1>
                 <p></p>
                 <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-                Welcome to WPL, the best platform to lie on the web.
-                We provide reliable, scalable, and customizable for
-                your needs. Whether you're creating posts,
-                password reset, or faking your identity, WPL has got you
-                covered.
+                    Welcome to WPL, the best platform to lie on the web.
+                    We provide reliable, scalable, and customizable for
+                    your needs. Whether you're creating posts,
+                    password reset, or faking your identity, WPL has got you
+                    covered.
                 </p>
             </div>
             <BackgroundBeams />
         </div>
+        <Cursor />
     </div>
 </div>
 }
