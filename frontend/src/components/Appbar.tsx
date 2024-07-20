@@ -4,7 +4,9 @@ import { Link } from "react-router-dom"
 export const Appbar = () => {
     return <div className="border-b flex justify-between px-10 py-4">
         <Link to={'/blogs'} className="flex flex-col justify-center cursor-pointer">
+            <h1 className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">
                 WPL
+            </h1>
         </Link>
         <div> 
             <Link to={`/publish`}>
