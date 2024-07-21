@@ -22,7 +22,7 @@ const variants: Record<CursorVariant, React.CSSProperties> = {
 };
 
 export function Home() {
-    const [cursorVariant, setCursorVariant] = useState<CursorVariant>("default");
+    const [cursorVariant] = useState<CursorVariant>("default");
     const cursorRef = useRef<HTMLDivElement | null>(null);
 
     useEffect(() => {
