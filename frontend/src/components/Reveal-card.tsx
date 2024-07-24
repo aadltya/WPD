@@ -9,7 +9,7 @@ export function RevealCard() {
     <div className="flex items-center justify-end h-[40rem] rounded-2xl w-full">
       <TextRevealCard
         text="What is in your mind?"
-        revealText="You know the platform "
+        revealText="say it loud on WPL"
       >
         <TextRevealCardTitle>
           Sometimes, you just need to say it.

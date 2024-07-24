@@ -3,6 +3,8 @@
 import { Link } from "react-router-dom";
 import { BackgroundBeams } from "../components/ui/background-beams";
 import { RevealCard } from '../components/Reveal-card';
+import { ThreeDCard } from "../components/3d-card";
+import { FooterDev } from "../components/FooterDev";
 
 // type CursorVariant = "default" | "text";
 
@@ -99,10 +101,19 @@ export function Home() {
             </div>
             
             <div className="h-screen bg-neutral-950 relative flex flex-col items-center antialiased" >
-                <div className="h-screen w-11/12" >
-                    <RevealCard />
+                <div className="h-screen w-11/12 grid grid-cols-2 gap-6 " >
+                    <div className="" >
+                        <ThreeDCard />
+                    </div>
+                    
+                    <div className="" >
+                        <RevealCard />
+                    </div>
                 </div>
             </div>
+            <footer>
+                <FooterDev />
+            </footer>
         </div>
     );
 }
