@@ -13,17 +13,17 @@ export const FooterDev = () =>  {
                     <img src={wplLogo} className="h-8 me-3" alt="wpl Logo" />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">watch people lie</span>
                 </a>
-                <a className="text-sm font-semibold text-gray-500 dark:text-gray-400" href="https://twitter.com/aditya_swamii">Building in public at <span className="text-blue-500 ml-1" >@aditya_swamii</span></a>
+                <a className="text-sm font-semibold text-gray-500 dark:text-gray-400" target="_blank" href="https://twitter.com/aditya_swamii">Building in public at <span className="text-blue-500 ml-1" >@aditya_swamii</span></a>
             </div>
             <div className="grid grid-cols-2 gap-8 ">
                 <div>
                     <h2 className="mb-6 text-sm font-semibold text-gray-900  dark:text-white">Resources I use</h2>
                     <ul className="text-gray-500 dark:text-gray-400 font-medium">
                         <li className="mb-4">
-                            <a href="https://ui.aceternity.com/" className="hover:underline">Aceternity UI</a>
+                            <a href="https://ui.aceternity.com/" target="_blank" className="hover:underline">Aceternity UI</a>
                         </li>
                         <li>
-                            <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
+                            <a href="https://tailwindcss.com/" target="_blank" className="hover:underline">Tailwind CSS</a>
                         </li>
                     </ul>
                 </div>
@@ -31,13 +31,13 @@ export const FooterDev = () =>  {
                     <h2 className="mb-6 text-sm font-semibold text-gray-900 dark:text-white">join me</h2>
                     <ul className="text-gray-500 dark:text-gray-400 font-medium">
                         <li className="mb-4">
-                            <a href="https://github.com/aadltya" className="hover:underline ">Github</a>
+                            <a href="https://github.com/aadltya" target="_blank" className="hover:underline ">Github</a>
                         </li>
                         <li className="mb-4" >
-                            <a href="https://adityasworld.vercel.app/" className="hover:underline">Portfolio</a>
+                            <a href="https://twitter.com/aditya_swamii" target="_blank" className="hover:underline">Twitter</a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/aditya_swamii" className="hover:underline">Twitter</a>
+                            <a href="https://adityasworld.vercel.app/" target="_blank" className="hover:underline">Portfolio</a>
                         </li>
                     </ul>
                 </div>

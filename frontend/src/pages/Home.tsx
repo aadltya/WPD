@@ -57,7 +57,7 @@ export function Home() {
     // };
 
     return (
-        <div className="">
+        <div className="select-none">
             <div className="h-screen w-full bg-neutral-950 relative flex flex-col items-stretch antialiased">
                 <div className="flex justify-between px-10 py-4 relative z-10">
                     <div className="flex flex-col justify-center">
