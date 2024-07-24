@@ -1,49 +1,50 @@
-import { useState, useEffect, useRef } from 'react';
-import gsap from 'gsap';
+// import { useState, useRef } from 'react';
+// import gsap from 'gsap';
 import { Link } from "react-router-dom";
 import { BackgroundBeams } from "../components/ui/background-beams";
+import { RevealCard } from '../components/Reveal-card';
 
-type CursorVariant = "default" | "text";
+// type CursorVariant = "default" | "text";
 
-const variants: Record<CursorVariant, React.CSSProperties> = {
-    default: {
-        width: 32, 
-        height: 32, 
-        backgroundColor: "#1a202c", 
-        borderRadius: "50%",
-    },
-    text: {
-        width: 120,
-        height: 120,
-        backgroundColor: "grey",
-        mixBlendMode: "difference",
-        borderRadius: "50%",
-    },
-};
+// const variants: Record<CursorVariant, React.CSSProperties> = {
+//     default: {
+//         width: 32, 
+//         height: 32, 
+//         backgroundColor: "#1a202c", 
+//         borderRadius: "50%",
+//     },
+//     text: {
+//         width: 120,
+//         height: 120,
+//         backgroundColor: "grey",
+//         mixBlendMode: "difference",
+//         borderRadius: "50%",
+//     },
+// };
 
 export function Home() {
-    const [cursorVariant] = useState<CursorVariant>("default");
-    const cursorRef = useRef<HTMLDivElement | null>(null);
+    // const [cursorVariant] = useState<CursorVariant>("default");
+    // const cursorRef = useRef<HTMLDivElement | null>(null);
 
-    useEffect(() => {
-        const mouseMove = (e: MouseEvent) => {
-            const cursor = cursorRef.current;
-            if (cursor) {
-                gsap.to(cursor, {
-                    x: e.clientX - 16, 
-                    y: e.clientY - 16, 
-                    duration: 0.1, 
-                    ease: "power2.out",
-                });
-            }
-        };
+    // useEffect(() => {
+    //     const mouseMove = (e: MouseEvent) => {
+    //         const cursor = cursorRef.current;
+    //         if (cursor) {
+    //             gsap.to(cursor, {
+    //                 x: e.clientX - 16, 
+    //                 y: e.clientY - 16, 
+    //                 duration: 0.1, 
+    //                 ease: "power2.out",
+    //             });
+    //         }
+    //     };
 
-        window.addEventListener('mousemove', mouseMove);
+    //     window.addEventListener('mousemove', mouseMove);
 
-        return () => {
-            window.removeEventListener('mousemove', mouseMove);
-        };
-    }, []);
+    //     return () => {
+    //         window.removeEventListener('mousemove', mouseMove);
+    //     };
+    // }, []);
 
     // const textEnter = () => {
     //     setCursorVariant("text");
@@ -88,12 +89,18 @@ export function Home() {
                     <BackgroundBeams />
                 </div>
 
-                <div>
+                {/* <div>
                     <div
                         ref={cursorRef}
                         className="fixed top-0 left-0"
                         style={variants[cursorVariant]} 
                     />
+                </div> */}
+            </div>
+            
+            <div className="h-screen bg-neutral-950 relative flex flex-col items-center antialiased" >
+                <div className="h-screen w-11/12" >
+                    <RevealCard />
                 </div>
             </div>
         </div>
