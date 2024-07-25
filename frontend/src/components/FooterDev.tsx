@@ -13,7 +13,7 @@ export const FooterDev = () =>  {
                     <img src={wplLogo} className="h-8 me-3" alt="wpl Logo" />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">watch people lie</span>
                 </a>
-                <a className="text-sm font-semibold text-gray-500 dark:text-gray-400" target="_blank" href="https://twitter.com/aditya_swamii">Building in public at <span className="text-blue-500 ml-1" >@aditya_swamii</span></a>
+                <span className="text-sm font-semibold text-gray-500 dark:text-gray-400">Building in public at <a target="_blank" href="https://twitter.com/aditya_swamii" className="text-blue-500 ml-1" >@aditya_swamii</a></span>
             </div>
             <div className="grid grid-cols-2 gap-8 ">
                 <div>
