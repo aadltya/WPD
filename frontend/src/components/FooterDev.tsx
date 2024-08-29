@@ -1,4 +1,4 @@
-import wplLogo from "../../public/WPL.png"
+import wplLogo from "../assets/WPL.png";
 
 
 export const FooterDev = () =>  {
