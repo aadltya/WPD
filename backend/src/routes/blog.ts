@@ -159,5 +159,3 @@ blogRouter.get('/:id', async (c) => {
         });
     }
 })
-
-//https://backend.adityaswami.workers.dev
