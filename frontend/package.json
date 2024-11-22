@@ -11,16 +11,19 @@
   },
   "dependencies": {
     "@adityaswami/auth-wpd": "^1.0.0",
+    "@tsparticles/engine": "^3.6.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.6.0",
     "axios": "^1.7.2",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.3.17",
+    "framer-motion": "^11.11.17",
     "gsap": "^3.12.5",
     "mini-svg-data-uri": "^1.4.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-element-to-jsx-string": "^15.0.0",
     "react-router-dom": "^6.24.0",
-    "tailwind-merge": "^2.4.0"
+    "tailwind-merge": "^2.5.4"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
