@@ -11,7 +11,7 @@ export const FooterDev = () =>  {
             <div className="mb-6 md:mb-0">
                 <a href="https://watchpeoplelie.vercel.app/" className="flex items-center mb-4">
                     <img src={wplLogo} className="h-8 me-3" alt="wpl Logo" />
-                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">watch people lie</span>
+                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Daily Dev</span>
                 </a>
                 <span className="text-sm font-semibold text-gray-500 dark:text-gray-400">Building in public at <a target="_blank" href="https://twitter.com/aditya_swamii" className="text-blue-500 ml-1" >@aditya_swamii</a></span>
             </div>
